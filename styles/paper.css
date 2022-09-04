@@ -1,0 +1,46 @@
+/* Sheet of paper styling for content wrapper */
+/* Adapted from https://codepen.io/martinwolf/pen/GRaWPy */
+.paper-wrapper {
+  position: relative;
+  margin: 2em auto;
+  width: 90%;
+  height: 40em;
+  background: #fff;
+  border-radius: 2px;
+  padding:  2.8em;
+}
+
+.paper-wrapper::before,
+.paper-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  width: 10%;
+  height: 10px;
+  box-shadow: 0 5px 14px rgba(0,0,0,.7);
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+.paper-wrapper::before {
+  left: 15px;
+  transform: skew(-5deg) rotate(-5deg);
+}
+
+.paper-wrapper::after {
+  right: 15px;
+  transform: skew(5deg) rotate(5deg);
+}
+
+.paper-wrapper:hover::before,
+.paper-wrapper:hover::after {
+  box-shadow: 0 2px 14px rgba(0,0,0,.4);
+}
+
+.paper-wrapper:hover::before {
+  left: 5px;
+}
+
+.paper-wrapper:hover::after {
+  right: 5px;
+}

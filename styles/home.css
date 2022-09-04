@@ -1,0 +1,78 @@
+/* TO DO
+ - make RTL friendly
+ - lint
+*/
+@import "./paper.css";
+@import "./header.css";
+@import "./zines.css";
+@import "./prints.css";
+@import "./about.css";
+@import "./spotlight.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+}
+
+.scroll {
+  position: absolute;
+  font-size: 3em;
+  opacity: 40%;
+  text-shadow: 2px 3px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF;
+  z-index: 2;
+  top: calc(50% - 1.5em);
+}
+
+.scroll.forward {
+  transform: scale(-1, 1);
+  right: 1em;
+}
+
+
+section:not(.current) {
+  display: none;
+}
+
+/* Image previews */
+section.preview-images.current {
+  display: flex;
+  overflow-x: scroll;
+}
+
+section.preview-images img {
+  height:  24em;
+  cursor: pointer;
+}
+
+section.preview-images .image-item:not(:first-of-type) {
+  margin-left: 1.5em;
+}
+section.preview-images .image-item:first-of-type {
+  margin-left: .5em;
+}
+
+.preview-images .image-item {
+  padding:  1.2em;
+  height: fit-content;
+  margin-top: 1em;
+}
+
+/* Gallery image overlays */
+section.preview-images .image-item {
+  position: relative;
+}
+
+section.preview-images .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: .1em;
+  display: none;
+  text-align: center;
+  pointer-events: none;
+}

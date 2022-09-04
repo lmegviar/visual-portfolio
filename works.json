@@ -1,0 +1,349 @@
+WORKS = {
+	"naturalist": {
+		"title": "Naturalist",
+		"description": "Digitally collaged original pen and ink drawings of natural wonders",
+		"date": "2021",
+		"type": "prints",
+		"src": "./assets/naturalist.jpg",
+		"alt": "A collection of pen and ink drawings of various natural items surrounding a central drawing of a pair of binocular on top of a framed butterfly arranged on top of a butterfly net"
+	},
+	"pigeon": {
+		"title": "Motel Pigeon",
+		"description": "Linoleum block print with water-based ink - original 8\" x 10\"\nPart of a \"Baltimore Beastiary\" series",
+		"date": "2012",
+		"type": "prints",
+		"src": "./assets/pigeon.jpg",
+		"alt": "A pigeon in front of a sign reading \"M O\""
+	},
+	"tartar-lamb": {
+		"title": "Tartar Lamb",
+		"description": "Two color screenprint, original 8.5\" x 11\"",
+		"date": "2011",
+		"type": "prints",
+		"src": "./assets/tartar_lamb.jpg",
+		"alt": "An upside down sheep-like creature with a sheep-skull head and plant stems for legs"
+	},
+	"dynastes": {
+		"title": "Dynastes grantii",
+		"description": "Linoleum block prints on floral paper, digital composition - 8.5\" x 11\"",
+		"date": "2020",
+		"type": "prints",
+		"src": "./assets/dynastes.png",
+		"alt": "Six prints of horned beetles displayed on blocks of solid color or floral prints"
+	},
+	"skull-alligator": {
+		"title": "American Alligator Skull",
+		"description": "Linoleum block print with water-based ink - original 5\" x 7\"",
+		"date": "2019",
+		"type": "prints",
+		"src": "./assets/lino_skulls/skull_alligator.png",
+		"alt": "Black and white print of skull with animal name printed below"
+	},
+	"skull-bear": {
+		"title": "Black Bear Skull",
+		"description": "Linoleum block print with water-based ink - original 5\" x 7\"",
+		"date": "2019",
+		"type": "prints",
+		"src": "./assets/lino_skulls/skull_bear.png",
+		"alt": "Black and white print of skull with animal name printed below"
+	},
+	"skull-crow": {
+		"title": "American Crow Skull",
+		"description": "Linoleum block print with water-based ink - original 5\" x 7\"",
+		"date": "2019",
+		"type": "prints",
+		"src": "./assets/lino_skulls/skull_crow.png",
+		"alt": "Black and white print of skull with animal name printed below"
+	},
+	"skull-mountain-lion": {
+		"title": "Mountain Lion Skull",
+		"description": "Linoleum block print with water-based ink - original 5\" x 7\"",
+		"date": "2020",
+		"type": "prints",
+		"src": "./assets/lino_skulls/skull_mountain_lion.png",
+		"alt": "Black and white print of skull with animal name printed below"
+	},
+	"skull-osprey": {
+		"title": "Osprey Skull",
+		"description": "Linoleum block print with water-based ink - original 5\" x 7\"",
+		"date": "2019",
+		"type": "prints",
+		"src": "./assets/lino_skulls/skull_osprey.png",
+		"alt": "Black and white print of skull with animal name printed below"
+	},
+	"skull-turtle": {
+		"title": "Common Snapping Turtle Skull",
+		"description": "Linoleum block print with water-based ink - original 5\" x 7\"",
+		"date": "2019",
+		"type": "prints",
+		"src": "./assets/lino_skulls/skull_turtle.png",
+		"alt": "Black and white print of skull with animal name printed below"
+	},
+	"tell-me-how-i-really-feel": {
+		"title": "Tell Me How I Really Feel",
+		"description": "Tell Me How I Really Feel aims to inform the public about affective computing, its limitations, and the consequences of its misuse. It introduces facial recognition technology and its foundation in decades of biased research into “basic” or “universal” emotions. The zine explores how imagery from these studies feeds machine learning models that attempt to predict how a person will feel based on facial microexpressions.",
+		"date": "2022",
+		"type": "zines",
+		"src": "./assets/tell_me_how_i_really_feel/page1.jpg",
+		"alt": "alt to do",
+		"images": [
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page1.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page2.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page3.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page4.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page5.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page6.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page7.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page8.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page9.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page10.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page11.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page12.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page13.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page14.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+			{
+				"src": "./assets/tell_me_how_i_really_feel/page15.jpg",
+				"alt": "Collaged imagery and text - transcript of text needed"
+			},
+
+		]
+	},
+	"a-handful-of-powers": {
+		"title": "A Handful of Powers",
+		"description": "A 22\" long accordian zine featuring original pen and ink drawings based on imagery from the iconic short film, \"Powers of Ten\" (Eames, Charles, et al., Pyramid Films, 1978)",
+		"date": "2022",
+		"type": "zines",
+		"src": "./assets/a_handful_of_powers/page1.jpg",
+		"alt": "Cover reading \"A handful of powers\"",
+		"images": [
+			{
+				"src": "./assets/a_handful_of_powers/page1.jpg",
+				"alt": "Pen and ink drawing of the earth from far away with subtitle \"Space is too far\""
+			},
+			{
+				"src": "./assets/a_handful_of_powers/page2.jpg",
+				"alt": "Pen and ink drawing of the earth with subtitle \"That's better\""
+			},
+			{
+				"src": "./assets/a_handful_of_powers/page3.jpg",
+				"alt": "Pen and ink drawing of a beach from far above with subtitle \"Almost\""
+			},
+			{
+				"src": "./assets/a_handful_of_powers/page4.jpg",
+				"alt": "Pen and ink drawing of a person on a picnic blanket with subtitle \"Closer\""
+			},
+			{
+				"src": "./assets/a_handful_of_powers/page5.jpg",
+				"alt": "Pen and ink drawing of a close up of the back of a hand with subtitle \"Like the back of your hand\""
+			},
+			{
+				"src": "./assets/a_handful_of_powers/page6.jpg",
+				"alt": "Four pen and ink drawing of successively more detail microscopic views of human skin with the subtitle \"Farther now, deeper \""
+			},
+			{
+				"src": "./assets/a_handful_of_powers/page7.jpg",
+				"alt": "Pen and ink drawing of a representation of an atom on a black background with the subtitle \"into the space within\""
+			},
+			{
+				"src": "./assets/a_handful_of_powers/page8.jpg",
+				"alt": "alt to do"
+			},
+		]
+	},
+	"i-become-an-animal": {
+		"title": "I become an animal",
+		"description": "An 11\" accordian fold risograph mini zine",
+		"date": "2022",
+		"type": "zines",
+		"src": "./assets/i_become_an_animal/page1.jpg",
+		"alt": "Words \"I become an animal\" in a pink square",
+		"images": [
+			{
+				"src": "./assets/i_become_an_animal/page1.jpg",
+				"alt": "Words \"I become an animal\" in a pink square",
+			},
+			{
+				"src": "./assets/i_become_an_animal/page2.jpg",
+				"alt": "a woman in striped shirts"
+			},
+			{
+				"src": "./assets/i_become_an_animal/page3.jpg",
+				"alt": "an ornate mirror reflecting a room with a couch"
+			},
+			{
+				"src": "./assets/i_become_an_animal/page4.jpg",
+				"alt": "a woman's face in an abstract mirrow"
+			},
+			{
+				"src": "./assets/i_become_an_animal/page5.jpg",
+				"alt": "a woman's downcast face in a two circles"
+			},
+			{
+				"src": "./assets/i_become_an_animal/page6.jpg",
+				"alt": "a person grabbing covering their eyes, holding their side, and bending forward as if in pain"
+			},
+			{
+				"src": "./assets/i_become_an_animal/page7.jpg",
+				"alt": "A face on a long hairy neck tilts back and emits speech bubble with an exclamation point inside"
+			},
+			{
+				"src": "./assets/i_become_an_animal/page8.jpg",
+				"alt": "two hands dragging down to the bottom of the frame with the text \"why?\""
+			},
+		]
+	},
+	"avoid-doubt-reject-believe": {
+		"title": "Avoid, Doubt, Reject, Believe (Fortune Teller)",
+		"description": "11\" x 11\" foldable paper fortune teller",
+		"date": "2021",
+		"type": "zines",
+		"src": "./assets/avoid_doubt_reject_believe/1.png",
+		"alt": "folded paper fortune teller",
+		"images": [
+			{
+				"src": "./assets/avoid_doubt_reject_believe/1.png",
+				"alt": "folded paper fortune teller"
+			},
+			{
+				"src": "./assets/avoid_doubt_reject_believe/2.png",
+				"alt": "folded paper fortune teller"
+			},
+			{
+				"src": "./assets/avoid_doubt_reject_believe/3.png",
+				"alt": "folded paper fortune teller"
+			},
+			{
+				"src": "./assets/avoid_doubt_reject_believe/4.png",
+				"alt": "folded paper fortune teller"
+			},
+			{
+				"src": "./assets/avoid_doubt_reject_believe/5.png",
+				"alt": "folded paper fortune teller"
+			},
+			{
+				"src": "./assets/avoid_doubt_reject_believe/6.png",
+				"alt": "folded paper fortune teller"
+			},
+			{
+				"src": "./assets/avoid_doubt_reject_believe/cover.png",
+				"alt": "four faces in a grid"
+			},
+			{
+				"src": "./assets/avoid_doubt_reject_believe/full_page.png",
+				"alt": "full page view of the unfolded fortune teller printable"
+			},
+		]
+	},
+	"react-consider-rebel-accept": {
+		"title": "Avoid, Doubt, Reject, Believe (Fortune Teller)",
+		"description": "8\" x 8\" foldable paper fortune teller",
+		"date": "2021",
+		"type": "zines",
+		"src": "./assets/react_consider_rebel_accept/1.png",
+		"alt": "folded paper fortune teller on green paper",
+		"images": [
+			{
+				"src": "./assets/react_consider_rebel_accept/1.png",
+				"alt": "folded paper fortune teller on green paper"
+			},
+			{
+				"src": "./assets/react_consider_rebel_accept/2.png",
+				"alt": "folded paper fortune teller on green paper"
+			},
+			{
+				"src": "./assets/react_consider_rebel_accept/3.png",
+				"alt": "folded paper fortune teller on green paper"
+			},
+			{
+				"src": "./assets/react_consider_rebel_accept/4.png",
+				"alt": "folded paper fortune teller on green paper"
+			},
+			{
+				"src": "./assets/react_consider_rebel_accept/5.png",
+				"alt": "folded paper fortune teller on green paper"
+			},
+			{
+				"src": "./assets/react_consider_rebel_accept/full_page.png",
+				"alt": "full page view of the unfolded fortune teller printable"
+			},
+		]
+	},
+	"superseded": {
+		"title": "Superseded Substances",
+		"description": "8 page single sheet zine - 4.25\" x 11\"",
+		"date": "2021",
+		"type": "zines",
+		"src": "./assets/superseded_substances/cover.jpg",
+		"alt": "title of the zine in a cube with subtitle \"Lessons learned from stuff that never existed\"",
+		"images": [
+			{
+				"src": "./assets/superseded_substances/cover.jpg",
+				"alt":  "title of the zine in a cube with subtitle \"Lessons learned from stuff that never existed\"",
+			},
+			{
+				"src": "./assets/superseded_substances/full_page.jpg",
+				"alt": "full page view of zine - transcript of text needed"
+			},
+		]
+	},
+	"all-these-creatures": {
+		"title": "All These Creatures",
+		"description": "Digital and traditional collage",
+		"date": "2018",
+		"type": "zines",
+		"src": "./assets/all_these_creatures/cover.png",
+		"alt": "collage images and text \"ALL THESE CREATURES\" and \"consider things\"",
+		"images": [
+			{
+				"src": "./assets/all_these_creatures/cover.png",
+				"alt": "collage images and text \"ALL THESE CREATURES\" and \"consider things\""
+			},
+			{
+				"src": "./assets/all_these_creatures/full_page.png",
+				"alt": "full page view of collage - text transcript needed"
+			},
+		]
+	},
+};

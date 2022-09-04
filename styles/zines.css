@@ -1,0 +1,22 @@
+#zines.preview-images img {
+  width: unset;
+  cursor: pointer;
+  max-height: 100%;
+}
+
+#zines .image-item {
+  height: 20em;
+}
+
+#zines-spotlight .images img:not(:first-of-type) {
+  margin-left: .8em;
+}
+
+#zines-spotlight .images img {
+  max-height: 30em;
+  margin: auto;
+}
+
+#zines img:hover {
+  opacity: 70%;
+}

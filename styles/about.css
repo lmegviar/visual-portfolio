@@ -1,0 +1,27 @@
+/* About section */
+#about {
+  font-family: 'Dosis', sans-serif;
+}
+
+#about .bio {
+  font-size: 1.2em;
+  max-width: 20em;
+  line-height: 1.6;
+  margin-top: 2em;
+}
+
+#about .contact {
+  display: flex;
+  align-items: center;
+}
+
+#about .contact .mail-icon{
+  font-size: 2.2em;
+}
+
+#about .contact a {
+  color:  black;
+  font-size: 1.2em;
+  margin-left: .5em;
+  letter-spacing: .1em;
+}

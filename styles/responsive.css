@@ -1,0 +1,221 @@
+/* Small screen styling */
+@media only screen and (max-width: 55em) {
+  body {
+    min-width: 22em;
+  }
+
+  .scroll {
+    display: none;
+  }
+  
+  section {
+    height: unset;
+    min-width: unset;
+  }
+
+  .spotlight {
+    text-align: center;
+  }
+
+  .spotlight img {
+    width: unset;
+    height: unset;
+  }
+
+  .spotlight div.images {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .spotlight div.images img {
+    height: unset;
+    width: unset;
+  }
+
+  .spotlight .details {
+    width: 100%;
+    text-align: left;
+    border-left: none;
+    padding-left: unset;
+    margin: 0 1.3em;
+  }
+
+  h1.main-header {
+    font-size: 3.5em;
+    line-height: .5;
+  }
+
+  nav li {
+    margin-left: 1em;
+    width: 2.8em;
+    font-size: 1.5em;
+  }
+
+  .paper-wrapper {
+    max-height: unset;
+    min-width: unset;
+    margin: auto;
+    width: calc(100% - 8em);
+    padding: 2.8em;
+    height: 100%;
+  }
+
+  section {
+    flex-direction: column;
+  }
+ 
+  .spotlight div.images {
+    display: unset;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    width: calc(100% - 1em);
+    text-align: center;
+    margin: auto;
+  }
+
+  .spotlight > img {
+    width: calc(100% - 2em);
+    margin: auto;
+    max-width: unset;
+  }
+
+  section.preview-images.current {
+    display: flex;
+    text-align: center;
+    overflow-x: visible;
+  }
+
+  section.preview-images img {
+    height: unset;
+    margin: unset;
+    width: 100%;
+  }
+
+  .spotlight .date {
+    margin-bottom:  .5em;
+  }
+
+  .header-bar {
+    margin-bottom: 2em;
+  }
+
+  .spotlight .back {
+    margin: .5em 0;
+    font-size: 1.8em;
+  }
+
+  .spotlight .back span {
+    font-size: .7em;
+  }
+
+  section.preview-images img:not(:last-of-type) {
+    margin-bottom: 1.5em;
+  }
+
+  .spotlight div.images + .details,
+  .spotlight .details {
+    width: calc(100% - 2.4em);
+  }
+
+  #zines-spotlight {
+    flex-direction: column-reverse;
+  }
+
+  section.preview-images {
+    align-items: center;
+  }
+
+  section.preview-images .image-item {
+    max-width: 32em;
+  }
+
+  section.preview-images .image-item:not(:first-of-type),
+  section.preview-images .image-item:first-of-type {
+    margin: auto;
+  }
+
+  #zines .image-item {
+    height: unset;
+    margin: auto;
+  }
+
+  #zines.preview-images img {
+    max-width: 100%;
+  }
+
+  #zines-spotlight .images img:not(:first-of-type) {
+    margin-left: auto;
+  }
+
+  #zines-spotlight .images img {
+    max-height: unset;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 45em) {
+  .header-bar {
+    margin-bottom: 1.5em;
+  }
+
+  nav li {
+    font-size: 1.2em;
+  }
+
+  nav li.current, nav li:hover {
+    text-decoration: underline;
+  }
+
+  h1.main-header {
+    font-size: 3em;
+  }
+
+  .spotlight .title {
+    font-size: 1.4em;
+  }
+
+  .spotlight .date {
+    font-size: 1.1em;
+    padding-bottom: ;
+  }
+
+  .spotlight .description {
+    margin-top: 0;
+    font-size: 1em;
+    line-height: 1.1;
+  }
+
+  .spotlight .back {
+    margin-bottom: .2em;
+    font-size: 1.6em;
+  }
+
+  .paper-wrapper {
+    width: calc(100% - 4em);
+    padding: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 40px) {
+  .header-bar {
+    margin-bottom: .8em;
+  }
+
+  nav li:not(:first-of-type) {
+    margin-left: 1em;
+  }
+
+  nav li {
+    font-size: 1em;
+  }
+
+  h1.main-header {
+    font-size: 2.3em;
+  }
+
+  .paper-wrapper {
+    padding: 1em;
+    width: calc(100% - 5em);
+  }
+}

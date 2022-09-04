@@ -1,0 +1,38 @@
+/* Page header with menu */
+.header-bar {
+  align-items: baseline;
+  height: 2.5em;
+  margin-bottom: 2.5em;
+  padding-bottom: 1em;
+}
+
+h1.main-header {
+  font-family: 'East Sea Dokdo', cursive;
+  font-weight: 400;
+  font-size: 4.5em;
+  line-height: .45;
+  flex:  auto;
+  margin: 0;
+}
+
+nav li {
+  font-family: 'Dosis', sans-serif;
+}
+
+.header-bar, nav ul {
+  display: flex;
+  padding-left:  0;
+}
+
+nav li {
+  list-style: none;
+  margin-left:  2em;
+  font-size: 1.5em;
+  cursor: pointer;
+  width: 3em;
+  letter-spacing: .1em;
+}
+
+nav li.current, nav li:hover {
+  font-weight: 700;
+}

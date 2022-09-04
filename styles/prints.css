@@ -1,0 +1,7 @@
+#prints img:hover + .text-overlay {
+  display: block;
+}
+
+#prints img:hover {
+  opacity: 20%;
+}
