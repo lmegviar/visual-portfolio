@@ -4,7 +4,7 @@ WORKS = {
 		"description": "Digitally collaged original pen and ink drawings of natural wonders",
 		"date": "2021",
 		"type": "prints",
-		"src": "./assets/naturalist.jpg",
+		"src": "./assets/naturalist.png",
 		"alt": "A collection of pen and ink drawings of various natural items surrounding a central drawing of a pair of binocular on top of a framed butterfly arranged on top of a butterfly net"
 	},
 	"pigeon": {
@@ -277,7 +277,7 @@ WORKS = {
 		]
 	},
 	"react-consider-rebel-accept": {
-		"title": "Avoid, Doubt, Reject, Believe (Fortune Teller)",
+		"title": "React, Consider, Rebel, Accept (Fortune Teller)",
 		"description": "8\" x 8\" foldable paper fortune teller",
 		"date": "2021",
 		"type": "zines",

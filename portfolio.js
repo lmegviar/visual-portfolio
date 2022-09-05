@@ -17,7 +17,6 @@ const removeChildren = (parent) => {
 
 const renderSection = (type) => {
 	history.pushState('', document.title, window.location.pathname);
-	scrollToTop();
 	document.querySelector("section.current").classList.remove("current");
 	document.querySelector(`#${type}`).classList.add("current");
 }
