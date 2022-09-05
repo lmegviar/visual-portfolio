@@ -1,11 +1,11 @@
 /* About section */
 #about {
   font-family: 'Dosis', sans-serif;
+  max-width: 20em;
 }
 
 #about .bio {
   font-size: 1.2em;
-  max-width: 20em;
   line-height: 1.6;
   margin-top: 2em;
 }
@@ -23,5 +23,10 @@
   color:  black;
   font-size: 1.2em;
   margin-left: .5em;
-  letter-spacing: .1em;
+  letter-spacing: .25em;
+}
+
+.selfie-container img {
+  max-width: 12em;
+  float:  right;
 }
