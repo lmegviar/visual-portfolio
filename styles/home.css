@@ -21,7 +21,8 @@ body {
   opacity: 40%;
   text-shadow: 2px 3px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF, 2px 2px 10px #FFF;
   z-index: 2;
-  top: calc(50% - 1.5em);
+  cursor: pointer;
+  margin-top: -.5em;
 }
 
 .scroll.forward {

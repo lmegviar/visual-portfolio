@@ -5,20 +5,21 @@ const clearHash = () => {
 };
 
 function scrollToTop() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	document.body.scrollTop = 0; // For Safari
+	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 } 
 
 const removeChildren = (parent) => {
-    while (parent.lastChild) {
-        parent.removeChild(parent.lastChild);
-    }
+	while (parent.lastChild) {
+		parent.removeChild(parent.lastChild);
+	}
 };
 
 const renderSection = (type) => {
 	history.pushState('', document.title, window.location.pathname);
 	document.querySelector("section.current").classList.remove("current");
 	document.querySelector(`#${type}`).classList.add("current");
+	setUpScrolling();
 }
 
 const addSpotlightImage = (id) => {
@@ -40,7 +41,7 @@ const addSpotlightCollection = (id) => {
 	});
 }
 
-const showSpotlight = (id) => {
+const renderSpotlight = (id) => {
 	scrollToTop();
 	console.log(id)
 	const spotlightSelector = `#${WORKS[id].type}-spotlight`;
@@ -58,7 +59,32 @@ const showSpotlight = (id) => {
 		document.querySelector(spotlightSelector).classList.remove("current");
 		document.querySelector(`#${WORKS[id].type}`).classList.add("current");
 	});
+	setUpScrolling();
 }
+
+// Set up section scrolling for wide screens
+const setUpScrolling = () => {
+ const scrollHandler = (evt) => {
+		if (window.getComputedStyle(evt.target).display !== "none") {
+			let container = document.querySelector(`#${evt.target.parentElement.id}`);
+			// To Do - make RTL friendly
+			let offset = container.clientWidth;
+			if (evt.target.classList.contains("back")) {
+				offset = 0 - offset;
+			}
+			container.scrollTo({
+				left: container.scrollLeft + offset,
+				behavior: "smooth"
+			});
+		}
+	};
+
+	let scrolls = [ ...document.getElementsByClassName("scroll") ];
+	scrolls.forEach(scroll => {
+		scroll.removeEventListener("click", scrollHandler);
+		scroll.addEventListener("click", scrollHandler);
+	});
+};
 
 // Render images
 for (const id in WORKS) {
@@ -90,16 +116,19 @@ document.querySelectorAll("nav li").forEach((el) => {
 // Handle clicks on preview images
 document.querySelectorAll(".preview-images img").forEach((el) => {
 	el.addEventListener('click', (event) => {
-		showSpotlight(event.srcElement.id);
+		renderSpotlight(event.srcElement.id);
 	})
 });
 
+// Handle hashs links
 if(window.location.hash) {
-  const hash = window.location.hash.toLowerCase().substring(1);
-  if (PAGES.includes(hash)) {
-  	renderSection(hash);
-  } else if (Object.keys(WORKS).includes(hash)) {
-  	showSpotlight(hash);
-  }
-  clearHash();
- }
+	const hash = window.location.hash.toLowerCase().substring(1);
+	if (PAGES.includes(hash)) {
+		renderSection(hash);
+	} else if (Object.keys(WORKS).includes(hash)) {
+		renderSpotlight(hash);
+	}
+	clearHash();
+}
+
+setUpScrolling();
