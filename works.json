@@ -310,40 +310,4 @@ WORKS = {
 			},
 		]
 	},
-	"superseded": {
-		"title": "Superseded Substances",
-		"description": "8 page single sheet zine - 4.25\" x 11\"",
-		"date": "2021",
-		"type": "zines",
-		"src": "./assets/superseded_substances/cover.jpg",
-		"alt": "title of the zine in a cube with subtitle \"Lessons learned from stuff that never existed\"",
-		"images": [
-			{
-				"src": "./assets/superseded_substances/cover.jpg",
-				"alt":  "title of the zine in a cube with subtitle \"Lessons learned from stuff that never existed\"",
-			},
-			{
-				"src": "./assets/superseded_substances/full_page.jpg",
-				"alt": "full page view of zine - transcript of text needed"
-			},
-		]
-	},
-	"all-these-creatures": {
-		"title": "All These Creatures",
-		"description": "Digital and traditional collage",
-		"date": "2018",
-		"type": "zines",
-		"src": "./assets/all_these_creatures/cover.png",
-		"alt": "collage images and text \"ALL THESE CREATURES\" and \"consider things\"",
-		"images": [
-			{
-				"src": "./assets/all_these_creatures/cover.png",
-				"alt": "collage images and text \"ALL THESE CREATURES\" and \"consider things\""
-			},
-			{
-				"src": "./assets/all_these_creatures/full_page.png",
-				"alt": "full page view of collage - text transcript needed"
-			},
-		]
-	},
 };
